@@ -30,6 +30,9 @@ export default function RootLayout() {
         {/* Splash screen */}
         <Stack.Screen name="splash" options={{ headerShown: false }} />
 
+        {/* Auth group */}
+        {/* <Stack.Screen name="(auth)" options={{ headerShown: false }} /> */}
+
         {/* Bottom Tabs layout */}
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
 
